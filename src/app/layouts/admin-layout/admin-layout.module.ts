@@ -33,7 +33,7 @@ import {
     MatButtonModule,
     MatRippleModule,
     MatInputModule,
-    MatTooltipModule,
+    MatTooltipModule
   ],
   declarations: [
     HomeComponent,

@@ -7,6 +7,8 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { HomeComponent } from '../../components/home/home.component';
 import { EventsComponent } from '../../components/events/events.component';
+import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
+
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
@@ -35,6 +37,7 @@ import {
   declarations: [
     HomeComponent,
     EventsComponent,
+    TournamentResultsComponent,
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,

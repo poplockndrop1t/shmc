@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 
 import { HomeComponent } from '../../components/home/home.component';
 import { EventsComponent } from '../../components/events/events.component';
+import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
+
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
@@ -54,14 +56,15 @@ export const AdminLayoutRoutes: Routes = [
     //         component: UpgradeComponent
     //     }]
     // }
-    { path: 'home',           component: HomeComponent },
-    { path: 'events',         component: EventsComponent },
-    { path: 'dashboard',      component: DashboardComponent },
-    { path: 'user-profile',   component: UserProfileComponent },
-    { path: 'table-list',     component: TableListComponent },
-    { path: 'typography',     component: TypographyComponent },
-    { path: 'icons',          component: IconsComponent },
-    { path: 'maps',           component: MapsComponent },
-    { path: 'notifications',  component: NotificationsComponent },
-    { path: 'upgrade',        component: UpgradeComponent },
+    { path: 'home',               component: HomeComponent },
+    { path: 'events',             component: EventsComponent },
+    { path: 'tournament-results', component: TournamentResultsComponent },
+    { path: 'dashboard',          component: DashboardComponent },
+    { path: 'user-profile',       component: UserProfileComponent },
+    { path: 'table-list',         component: TableListComponent },
+    { path: 'typography',         component: TypographyComponent },
+    { path: 'icons',              component: IconsComponent },
+    { path: 'maps',               component: MapsComponent },
+    { path: 'notifications',      component: NotificationsComponent },
+    { path: 'upgrade',            component: UpgradeComponent },
 ];

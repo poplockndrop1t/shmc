@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { HomeComponent } from '../../components/home/home.component';
+import { EventsComponent } from '../../components/events/events.component';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
@@ -33,6 +34,7 @@ import {
   ],
   declarations: [
     HomeComponent,
+    EventsComponent,
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,

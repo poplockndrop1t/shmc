@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { AdminLayoutRoutes } from './admin-layout.routing';
+
+import { HomeComponent } from '../../components/home/home.component';
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
@@ -29,6 +32,7 @@ import {
     MatTooltipModule,
   ],
   declarations: [
+    HomeComponent,
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,

@@ -122,10 +122,9 @@ export class EventsComponent implements OnInit {
       src: 'assets/img/shmc_pics/2018_presidents_cup/lytle_fernandez_mcnulty_paschal.png',
       desc: 'Nate Lytle, Cam Fernandez, Kenny Paschal, and Benny McNulty'
     }
-  ]
+  ];
 
-  constructor() {
-  }
+  constructor() {}
 
   ngOnInit() {}
 }

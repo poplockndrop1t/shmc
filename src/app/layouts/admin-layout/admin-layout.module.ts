@@ -5,7 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
-import { HomeComponent } from '../../components/home/home.component';
 import { EventsComponent } from '../../components/events/events.component';
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
@@ -36,7 +35,6 @@ import {
     MatTooltipModule
   ],
   declarations: [
-    HomeComponent,
     EventsComponent,
     TournamentResultsComponent,
     HandicapsComponent,

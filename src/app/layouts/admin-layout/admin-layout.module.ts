@@ -8,6 +8,7 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
+import { PhotosComponent } from '../../components/photos/photos.component';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
@@ -30,6 +31,7 @@ import {
     MatTooltipModule
   ],
   declarations: [
+    PhotosComponent,
     TournamentResultsComponent,
     TournamentScheduleComponent,
     HandicapsComponent,

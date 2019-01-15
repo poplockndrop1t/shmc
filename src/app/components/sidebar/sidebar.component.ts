@@ -11,7 +11,8 @@ export const ROUTES: RouteInfo[] = [
   { path: '/dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
   { path: '/tournament-results', title: 'Tournament Results', icon: 'library_books', class: '' },
   { path: '/tournament-schedule', title: 'Tournament Schedule', icon: 'content_paste', class: '' },
-  { path: '/handicaps', title: 'Handicaps', icon: 'poll', class: '' }
+  { path: '/handicaps', title: 'Handicaps', icon: 'poll', class: '' },
+  { path: '/photos', title: 'Photos', icon: 'dashboard', class: ''}
   // { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
 ];
 

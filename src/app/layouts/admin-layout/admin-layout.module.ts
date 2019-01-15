@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
+import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
 import { EventsComponent } from '../../components/events/events.component';
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
@@ -32,6 +33,7 @@ import {
   declarations: [
     EventsComponent,
     TournamentResultsComponent,
+    TournamentScheduleComponent,
     HandicapsComponent,
     DashboardComponent,
     UserProfileComponent,

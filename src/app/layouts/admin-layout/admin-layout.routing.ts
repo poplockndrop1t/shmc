@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { EventsComponent } from '../../components/events/events.component';
+import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
 
@@ -11,6 +12,7 @@ import { MapsComponent } from '../../maps/maps.component';
 export const AdminLayoutRoutes: Routes = [
     { path: 'events',             component: EventsComponent },
     { path: 'tournament-results', component: TournamentResultsComponent },
+    { path: 'tournament-schedule', component: TournamentScheduleComponent },
     { path: 'handicaps',          component: HandicapsComponent },
     { path: 'dashboard',          component: DashboardComponent },
     { path: 'user-profile',       component: UserProfileComponent },

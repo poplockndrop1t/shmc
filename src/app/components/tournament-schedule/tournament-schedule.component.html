@@ -1,40 +1,21 @@
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Upcoming Events</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <img class="round img-fluid" src="assets/img/shmc_pics/18.png">
-        </div>
-        <div class="col-sm">
-          <ul>
-            <li>Event</li>
-            <li>Event</li>
-            <li>Event</li>
-            <li>Event</li>
-            <li>Event</li>
-            <li>Event</li>
-            <li>Event</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <p class="lead">Whether it's your way of working out stress, enjoying a day with friends or completing a business deal, we know the importance that a good round of golf can have on your life. And that's why Sunset Hills Men's Club takes such pride in providing a complete country club experience from the moment you arrive until you finish your scorecard. Come see the difference we offer.</p>
-    <hr>
-    <div class="main-content">
-      <div class="container-fluid">
-        <div class="card-columns">
-          <div class="card" *ngFor="let photo of Photos">
-            <img class="card-img-top" [src]="photo.src">
-            <div class="card-body">
-            <h5 class="card-title">{{ photo.name }}</h5>
-            <p class="card-text">{{ photo.desc }}</p>
-            </div>
-          </div>
+<div class="main-content">
+  <div class="container-fluid">
+    <ul>
+      <li>test</li>
+    </ul>
+  </div>
+</div>
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="card-columns">
+      <div class="card" *ngFor="let photo of Photos">
+        <img class="card-img-top" [src]="photo.src">
+        <div class="card-body">
+        <h5 class="card-title">{{ photo.name }}</h5>
+        <p class="card-text">{{ photo.desc }}</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+

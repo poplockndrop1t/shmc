@@ -10,11 +10,11 @@ import { UserProfileComponent } from '../../user-profile/user-profile.component'
 import { MapsComponent } from '../../maps/maps.component';
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'events',             component: EventsComponent },
-    { path: 'tournament-results', component: TournamentResultsComponent },
+    { path: 'events',              component: EventsComponent },
+    { path: 'tournament-results',  component: TournamentResultsComponent },
     { path: 'tournament-schedule', component: TournamentScheduleComponent },
-    { path: 'handicaps',          component: HandicapsComponent },
-    { path: 'dashboard',          component: DashboardComponent },
-    { path: 'user-profile',       component: UserProfileComponent },
-    { path: 'maps',               component: MapsComponent }
+    { path: 'handicaps',           component: HandicapsComponent },
+    { path: 'dashboard',           component: DashboardComponent },
+    { path: 'user-profile',        component: UserProfileComponent },
+    { path: 'maps',                component: MapsComponent }
 ];

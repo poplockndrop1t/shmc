@@ -11,40 +11,17 @@
             <div class="table-responsive">
               <table class="table">
                 <thead class=" text-primary">
-                  <th>Place</th>
-                  <th>Flight</th>
-                  <th>Team Members</th>
+                  <th>Name</th>
+                  <th>Handicap</th>
+                  <th>Black</th>
+                  <th>White</th>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>A</td>
-                    <td class="text-primary">Ron Fernandez, Bradley Steven, Alex Lopez, Tim Neufeld.</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>A</td>
-                    <td class="text-primary">Rob Jacobus, Scott Linklater, Chuck Zelden, and Mike Jankowski.</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>A</td>
-                    <td class="text-primary">Eddie Lindgren, Rocky Mettam, Mike Lynch, Jr., and Joe Day.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>B</td>
-                    <td class="text-primary">Nate Lytle, Cam Fernandez, Kenny Paschal, and Benny McNulty.</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>B</td>
-                    <td class="text-primary">Mitch Knudson, David Pearson, Bob Ogg, and Lee Ladd.</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>B</td>
-                    <td class="text-primary">Mark Violin, Larry Ferris, Mike Nep, and Ryan Leff.</td>
+                  <tr *ngFor="let member of members">
+                    <td>{{ member.Name }}</td>
+                    <td>{{ member.Handicap }}</td>
+                    <td>{{ member.Black }}</td>
+                    <td class="text-primary">{{ member.White }}</td>
                   </tr>
                 </tbody>
               </table>

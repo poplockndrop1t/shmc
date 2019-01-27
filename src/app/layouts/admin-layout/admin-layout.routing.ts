@@ -6,6 +6,7 @@ import { TournamentResultsComponent } from '../../components/tournament-results/
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
 import { SuperReportComponent } from '../../components/super-report/super-report.component';
 import { UpcomingEventComponent } from '../../components/upcoming-event/upcoming-event.component';
+import { NewRulesComponent } from '../../components/new-rules/new-rules.component';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
@@ -17,6 +18,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'tournament-schedule', component: TournamentScheduleComponent },
     { path: 'upcoming-event',      component: UpcomingEventComponent },
     { path: 'handicaps',           component: HandicapsComponent },
+    { path: 'new-rules',           component: NewRulesComponent },
     { path: 'super-report',        component: SuperReportComponent },
     { path: 'dashboard',           component: DashboardComponent },
     { path: 'user-profile',        component: UserProfileComponent },

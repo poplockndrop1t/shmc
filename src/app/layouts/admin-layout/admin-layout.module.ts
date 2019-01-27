@@ -9,6 +9,7 @@ import { TournamentResultsComponent } from '../../components/tournament-results/
 import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
 import { PhotosComponent } from '../../components/photos/photos.component';
+import { SuperReportComponent } from '../../components/super-report/super-report.component';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
@@ -35,6 +36,7 @@ import {
     TournamentResultsComponent,
     TournamentScheduleComponent,
     HandicapsComponent,
+    SuperReportComponent,
     DashboardComponent,
     UserProfileComponent,
     MapsComponent

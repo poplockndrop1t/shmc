@@ -4,6 +4,7 @@ import { PhotosComponent } from '../../components/photos/photos.component';
 import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
+import { SuperReportComponent } from '../../components/super-report/super-report.component';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
@@ -14,6 +15,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'tournament-results',  component: TournamentResultsComponent },
     { path: 'tournament-schedule', component: TournamentScheduleComponent },
     { path: 'handicaps',           component: HandicapsComponent },
+    { path: 'super-report',        component: SuperReportComponent },
     { path: 'dashboard',           component: DashboardComponent },
     { path: 'user-profile',        component: UserProfileComponent },
     { path: 'maps',                component: MapsComponent }

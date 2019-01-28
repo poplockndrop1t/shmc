@@ -15,7 +15,7 @@ export const ROUTES: RouteInfo[] = [
   { path: '/handicaps', title: 'Handicaps', icon: 'poll', class: '' },
   { path: '/new-rules', title: 'New Rules', icon: 'new_releases', class: '' },
   { path: '/photos', title: 'Photos', icon: 'phone_iphone', class: ''},
-  { path: '/minutes', title: 'Meeting Minutes', icon: 'dashboard', class: '' },
+  { path: '/minutes', title: 'Meeting Minutes', icon: 'mms', class: '' },
   { path: '/tournament-results', title: 'Tournament Results', icon: 'priority_high', class: '' }
   // { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
 ];

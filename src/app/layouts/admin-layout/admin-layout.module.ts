@@ -10,7 +10,6 @@ import { TournamentScheduleComponent } from '../../components/tournament-schedul
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
 import { PhotosComponent } from '../../components/photos/photos.component';
 import { SuperReportComponent } from '../../components/super-report/super-report.component';
-import { UpcomingEventComponent } from '../../components/upcoming-event/upcoming-event.component';
 import { NewRulesComponent } from '../../components/new-rules/new-rules.component';
 import { MinutesComponent } from '../../components/minutes/minutes.component';
 
@@ -38,7 +37,6 @@ import {
     PhotosComponent,
     TournamentResultsComponent,
     TournamentScheduleComponent,
-    UpcomingEventComponent,
     HandicapsComponent,
     NewRulesComponent,
     SuperReportComponent,

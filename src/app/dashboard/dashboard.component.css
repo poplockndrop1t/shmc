@@ -1,0 +1,32 @@
+.background-img {
+  background: url('/assets/img/shmc_pics/18.png');
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5
+  /*background: rgba(255, 255, 255, 0.5);*/
+}
+
+
+.main-content {
+  /*background-color: rgba(255, 255, 255, 1);*/
+}
+
+/*
+div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}*/

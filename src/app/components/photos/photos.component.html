@@ -7,11 +7,25 @@
       </div>
     </div>
     <div class="card-columns">
+      <div class="card">
+        <img />
+        <div class="card-body">
+          <h5 class="card-title">SHMC</h5>
+          <p clas="card-text">Photos from 2019 Coming Soon</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header card-header-danger">
+        <p class="card-category">Photos from 2018</p>
+      </div>
+    </div>
+    <div class="card-columns">
       <div class="card" *ngFor="let photo of Photos">
         <img class="card-img-top" [src]="photo.src">
         <div class="card-body">
-        <h5 class="card-title">{{ photo.name }}</h5>
-        <p class="card-text">{{ photo.desc }}</p>
+          <h5 class="card-title">{{ photo.name }}</h5>
+          <p class="card-text">{{ photo.desc }}</p>
         </div>
       </div>
     </div>

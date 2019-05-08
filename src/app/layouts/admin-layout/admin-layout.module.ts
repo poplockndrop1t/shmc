@@ -7,6 +7,8 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { TournamentResultsComponent } from '../../components/tournament-results/tournament-results.component';
 import { TournamentScheduleComponent } from '../../components/tournament-schedule/tournament-schedule.component';
+import { UpcomingTournamentComponent } from '../../components/upcoming-tournament/upcoming-tournament.component';
+
 import { HandicapsComponent } from '../../components/handicaps/handicaps.component';
 import { PhotosComponent } from '../../components/photos/photos.component';
 import { SuperReportComponent } from '../../components/super-report/super-report.component';
@@ -37,6 +39,7 @@ import {
     PhotosComponent,
     TournamentResultsComponent,
     TournamentScheduleComponent,
+    UpcomingTournamentComponent,
     HandicapsComponent,
     NewRulesComponent,
     SuperReportComponent,

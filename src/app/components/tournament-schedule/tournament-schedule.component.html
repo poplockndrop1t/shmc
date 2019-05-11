@@ -6,70 +6,19 @@
         <p class="card-category">Tournament Schedule</p>
       </div>
     </div>
-    <ul class="list-group">
-      <li class="list-group-item">
-        <u>Superbowl Tournament - February 2nd</u>
-          <ul class="list-group">
-            <li class="list-group-item"><i>Chapman (Pinehurst) System</i></li>
-          </ul>
-      </li>
-      <li class="list-group-item">
-        <u>President's Cup - March 2nd - 3rd</u>
+    <div class="row">
+      <div class="col-sm"></div>
+      <div class="col-sm">
         <ul class="list-group">
-          <li class="list-group-item">Stableford Blind Draw Foursomes</li>
+          <li class="list-group-item" *ngFor="let tournament of tournaments">
+            <u>{{ tournament.tournamentName }}</u>
+            <ul class="list-group">
+              <li class="list-group-item"><i>{{ tournament.tournamentInfo }}</i></li>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li class="list-group-item">
-        <u>March Madness Match Play</u>
-        <ul class="list-group">
-          <li class="list-group-item">Individual Match Play</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Sparky Anderson- April 13th</u>
-        <ul class="list-group">
-          <li class="list-group-item">2 Man Best Ball</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Member/Guest - June 7th - 9th</u>
-        <ul class="list-group">
-          <li class="list-group-item">2 Man Better Ball</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Club and Sr. Club Championship - July 12th - 14th</u>
-      </li>
-      <li class="list-group-item">
-        <u>Member/Member - August 9th - 11th</u>
-        <ul class="list-group">
-          <li class="list-group-item">Shamble Aggregate</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Landry - September 13th - 15th</u>
-        <ul class="list-group">
-          <li class="list-group-item">2 Man Scramble Match Play</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Impossible Open - October 19th</u>
-        <ul class="list-group">
-          <li class="list-group-item">4 Man Scramble</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Turkey Shoot - November 9th</u>
-        <ul class="list-group">
-          <li class="list-group-item">2 Man Blind Draw</li>
-        </ul>
-      </li>
-      <li class="list-group-item">
-        <u>Skins Game - December 14th</u>
-        <ul class="list-group">
-          <li class="list-group-item">2 Man Better Ball</li>
-        </ul>
-      </li>
-    </ul>
+      </div>
+      <div class="col-sm"></div>
+    </div>
   </div>
 </div>

@@ -2,6 +2,36 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
+        <!-- Spary Anderson Results -->
+        <div class="card">
+          <div class="card-header card-header-danger">
+            <h4 class="card-title ">Sparky Anderson</h4>
+            <p class="card-category">Scores</p>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>Flight</th>
+                  <th>Player(s)</th>
+                  <th>Gross Score</th>
+                  <th>NetScore</th>
+                  <th>Place</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let sparky of sparkyAnderson2019">
+                    <td>{{ sparky.flight }}</td>
+                    <td class="text-primary">{{ sparky.player }}</td>
+                    <td>{{ sparky.gross }}</td>
+                    <td>{{ sparky.net }}</td>
+                    <td>{{ sparky.place }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- New Table -> -->
         <div class="card">
           <div class="card-header card-header-danger">
             <h4 class="card-title ">Member - Member 2018</h4>

@@ -20,45 +20,11 @@
       </div>
       <!-- Second Row of Items -->
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6" *ngFor="let button of secondRow">
           <div class="card card-stats">
-            <div class="card-header card-header-warning card-header-icon" routerLink="/handicaps">
-              <div class="card-icon"><i class="material-icons">golf_course</i></div>
-              <p class="card-category">Current Handicaps</p>
-            </div>
-            <div class="card-footer">
-              <div class="stats">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-header card-header-danger card-header-icon" routerLink="/minutes">
-              <div class="card-icon"><i class="material-icons">attachment</i></div>
-              <p class="card-category">Mens Club Meeting Minutes</p>
-            </div>
-            <div class="card-footer">
-              <div class="stats"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-header card-header-success card-header-icon" routerLink="/super-report">
-              <div class="card-icon"><i class="material-icons">work</i></div>
-              <p class="card-category">Superintendent Report</p>
-            </div>
-            <div class="card-footer">
-              <div class="stats"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-header card-header-info card-header-icon" routerLink="/new-rules">
-              <div class="card-icon"><i class="material-icons">new_releases</i></div>
-              <p class="card-category">USGA: New Rules</p>
+            <div class="card-header {{ button.headerType }} card-header-icon" routerLink="{{ button.route }}">
+              <div class="card-icon"><i class="material-icons">{{ button.materialIcon }}</i></div>
+              <p class="card-category">{{ button.info }}</p>
             </div>
             <div class="card-footer">
               <div class="stats"></div>

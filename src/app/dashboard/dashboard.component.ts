@@ -33,6 +33,33 @@ export class DashboardComponent implements OnInit {
     }
   ];
 
+  secondRow = [
+    {
+      headerType: 'card-header-warning',
+      route: '/handicaps',
+      materialIcon: 'golf_course',
+      info: 'Current Handicaps'
+    },
+    {
+      headerType: 'card-header-danger',
+      route: '/minutes',
+      materialIcon: 'attachment',
+      info: 'Mens Club Meeting Minutes'
+    },
+    {
+      headerType: 'card-header-success',
+      route: '/super-report',
+      materialIcon: 'work',
+      info: 'Superintendent Report'
+    },
+    {
+      headerType: 'card-header-info',
+      route: '/new-rules',
+      materialIcon: 'new_releases',
+      info: 'USGA: New Rules'
+    }
+  ];
+
   constructor() {}
   ngOnInit() {}
 

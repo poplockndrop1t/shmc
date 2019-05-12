@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { AgmCoreModule } from '@agm/core';
 
-
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
 
@@ -17,6 +16,7 @@ import { MapsComponent } from './maps/maps.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
+import { Handicaps } from 'models/handicaps/handicaps_4_15_2019';
 
 @NgModule({
   imports: [
@@ -35,7 +35,7 @@ import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResul
     AdminLayoutComponent,
 
   ],
-  providers: [SparkyAndersonData],
+  providers: [SparkyAndersonData, Handicaps],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

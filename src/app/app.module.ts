@@ -16,6 +16,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MapsComponent } from './maps/maps.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -33,7 +35,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     AdminLayoutComponent,
 
   ],
-  providers: [],
+  providers: [SparkyAndersonData],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

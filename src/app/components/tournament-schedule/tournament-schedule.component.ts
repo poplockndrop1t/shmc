@@ -33,7 +33,7 @@ export class TournamentScheduleComponent implements OnInit {
     },
     {
       tournamentName: 'Member/Member - August 9th - 11th',
-      tournamentInfo: 'Shamble Aggregate'
+      tournamentInfo: 'August 10th: Better Ball - August 11th: Shamble Aggregate'
     },
     {
       tournamentName: 'Landry - September 13th - 15th',

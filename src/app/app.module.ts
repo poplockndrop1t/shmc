@@ -39,3 +39,4 @@ import { Handicaps } from 'models/handicaps/handicaps_4_15_2019';
   bootstrap: [AppComponent]
 })
 export class AppModule {}
+ 

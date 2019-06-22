@@ -15,7 +15,11 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MapsComponent } from './maps/maps.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+// Tournament Results
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
+import { MemberGuestData } from 'models/tournamentResults/memberGuestResults';
+
+// Handicaps
 import { Handicaps } from 'models/handicaps/handicaps_6_15_2019';
 
 // Import 2019 Photo Modules
@@ -37,7 +41,12 @@ import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
     AppComponent,
     AdminLayoutComponent,
   ],
-  providers: [ SparkyAndersonData, Handicaps, Member_Guest_Photos ],
+  providers: [
+    SparkyAndersonData,
+    MemberGuestData,
+    Handicaps,
+    Member_Guest_Photos
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

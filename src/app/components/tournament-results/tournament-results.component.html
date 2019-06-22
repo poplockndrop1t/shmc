@@ -1,11 +1,44 @@
 <div class="main-content">
   <div class="container-fluid">
+    <!-- Spary Anderson Results -->
     <div class="row">
       <div class="col-md-12">
-        <!-- Spary Anderson Results -->
         <div class="card">
           <div class="card-header card-header-danger">
-            <h4 class="card-title ">Sparky Anderson</h4>
+            <h4 class="card-title ">Member Guest 2019</h4>
+            <p class="card-category">Scores</p>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>Flight</th>
+                  <th>Player(s)</th>
+                  <th>Points</th>
+                  <th>Place</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let member of memberGuest2019">
+                    <td>{{ member.flight }}</td>
+                    <td class="text-primary">{{ member.player }}</td>
+                    <td>{{ member.points }}</td>
+                    <td>{{ member.place }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Sparky Table -->
+
+    <!-- Spary Anderson Results -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header card-header-danger">
+            <h4 class="card-title ">Sparky Anderson 2019</h4>
             <p class="card-category">Scores</p>
           </div>
           <div class="card-body">
@@ -31,339 +64,10 @@
             </div>
           </div>
         </div>
-        <!-- New Table -> -->
-        <div class="card">
-          <div class="card-header card-header-danger">
-            <h4 class="card-title ">Member - Member 2018</h4>
-            <p class="card-category">​Flight Winners</p>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead class=" text-primary">
-                  <th>Place</th>
-                  <th>Flight</th>
-                  <th>Team Members</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>A</td>
-                    <td class="text-primary">Brodie Munro and Rick Cromell</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>A</td>
-                    <td class="text-primary">Rob Jacobus and Scott Linklater</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>A</td>
-                    <td class="text-primary">Mike Nep and Ryan Leff</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>A</td>
-                    <td class="text-primary">Keith Wilkson and Ed Cleaver</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>B</td>
-                    <td class="text-primary">Ryan Ryusaki and Shawn Simon</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>B</td>
-                    <td class="text-primary">Todd Kaiser and Dustin Cruz</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>B</td>
-                    <td class="text-primary">Mike Brennan and Kevin O'Toole</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>B</td>
-                    <td class="text-primary">Peter Eyerman and Ron Fernandez</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>C</td>
-                    <td class="text-primary">Alex Lopez and Tim Neufeld</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>C</td>
-                    <td class="text-primary">Greg Struck and Scott Berger</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>C</td>
-                    <td class="text-primary">Mike Jankowski and Larry Ferris</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>C</td>
-                    <td class="text-primary">Fred Robertson and Joe Smith</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>D</td>
-                    <td class="text-primary">Jeff Mason and Warren Hlinka</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>D</td>
-                    <td class="text-primary">Danny Holmes and Don Spurrier</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>D</td>
-                    <td class="text-primary">Benny McNulty and Kenny Paschal</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>D</td>
-                    <td class="text-primary">Bob Ogg and Lee Ladd</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header card-header-danger">
-            <h4 class="card-title ">Men's Club Championship 2018</h4>
-            <p class="card-category">​Flight Winners</p>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead class=" text-primary">
-                  <th>Place</th>
-                  <th>Flight</th>
-                  <th>Name</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Champion</td>
-                    <td>A</td>
-                    <td class="text-primary">Rob Jacobus (72 - 71 - 71 = 214)</td>
-                  </tr>
-                  <tr>
-                    <td>Runner Up</td>
-                    <td>A</td>
-                    <td class="text-primary">Scott Linklater (71 - 74 - 75 = 220)</td>
-                  </tr>
-                  <tr>
-                    <td>Champion</td>
-                    <td>Senior</td>
-                    <td class="text-primary">Jim Pett (77 - 73 = 150)</td>
-                  </tr>
-                  <tr>
-                    <td>Runner Up</td>
-                    <td>Senior</td>
-                    <td class="text-primary">Terry Powell (79 - 73 = 152)</td>
-                  </tr>
-                  <tr>
-                    <td>Champion</td>
-                    <td>Super Senior</td>
-                    <td class="text-primary">Steve Alexander (91 - 76 = 167)</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>A</td>
-                    <td class="text-primary">Scott Linklater</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>A</td>
-                    <td class="text-primary">Mark Leibin</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>A</td>
-                    <td class="text-primary">Terry Powell</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>A</td>
-                    <td class="text-primary">Mark Herbert</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>B</td>
-                    <td class="text-primary">Jeff Halloran</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>B</td>
-                    <td class="text-primary">Vince Alvarez</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>B</td>
-                    <td class="text-primary">Dane Zabel</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>B</td>
-                    <td class="text-primary">Mike Brennan</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>C</td>
-                    <td class="text-primary">Joe Smith</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>C</td>
-                    <td class="text-primary">Tim Neufeld</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>C</td>
-                    <td class="text-primary">Bobby Anzures</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>C</td>
-                    <td class="text-primary">Peter Eyermann</td>
-                  </tr>
-                  <tr>
-                    <td>1st Gross</td>
-                    <td>D</td>
-                    <td class="text-primary">Mark Violin</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Gross</td>
-                    <td>D</td>
-                    <td class="text-primary">Ron Thompson</td>
-                  </tr>
-                  <tr>
-                    <td>1st Net</td>
-                    <td>D</td>
-                    <td class="text-primary">Mike Treuheit</td>
-                  </tr>
-                  <tr>
-                    <td>2nd Net</td>
-                    <td>D</td>
-                    <td class="text-primary">Jon Barker</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header card-header-danger">
-            <h4 class="card-title ">Member-Guest 2018</h4>
-            <p class="card-category">​Flight Winners</p>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead class=" text-primary">
-                  <th>Place</th>
-                  <th>Flight</th>
-                  <th>Team Members</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>A</td>
-                    <td class="text-primary">Greg Hatfield, Steve Loving.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>B</td>
-                    <td class="text-primary">Jim Pett, John Empey.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>C</td>
-                    <td class="text-primary">John Billin, Chris Witham.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>D</td>
-                    <td class="text-primary">Shawn Simon, Sean Shebah.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>E</td>
-                    <td class="text-primary">Mike Brennan, Steve Reich.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>F</td>
-                    <td class="text-primary">Greg Struck, Stuart Struck.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>G</td>
-                    <td class="text-primary">Michael Jankowski, Brian Carr.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>H</td>
-                    <td class="text-primary">Tim Neufeld, Timothy Neufeld.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header card-header-danger">
-            <h4 class="card-title ">Presidents Cup 2018</h4>
-            <p class="card-category">​A Flight Winners</p>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table">
-                <thead class=" text-primary">
-                  <th>Place</th>
-                  <th>Flight</th>
-                  <th>Team Members</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>A</td>
-                    <td class="text-primary">Ron Fernandez, Bradley Steven, Alex Lopez, Tim Neufeld.</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>A</td>
-                    <td class="text-primary">Rob Jacobus, Scott Linklater, Chuck Zelden, and Mike Jankowski.</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>A</td>
-                    <td class="text-primary">Eddie Lindgren, Rocky Mettam, Mike Lynch, Jr., and Joe Day.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>B</td>
-                    <td class="text-primary">Nate Lytle, Cam Fernandez, Kenny Paschal, and Benny McNulty.</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>B</td>
-                    <td class="text-primary">Mitch Knudson, David Pearson, Bob Ogg, and Lee Ladd.</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>B</td>
-                    <td class="text-primary">Mark Violin, Larry Ferris, Mike Nep, and Ryan Leff.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
+    <!-- End of Sparky Table -->
+
+
   </div>
 </div>

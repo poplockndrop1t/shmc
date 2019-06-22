@@ -3,3 +3,16 @@ object {
   height: 100%;
   width: 100%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+@media (max-width: 991px) {
+  .row {
+    flex-direction: column;
+  }
+}

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Handicaps } from 'models/handicaps/handicaps_4_15_2019';
+import { Handicaps } from 'models/handicaps/handicaps_6_15_2019';
 
 @Component({
   selector: 'app-handicaps',

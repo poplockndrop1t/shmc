@@ -16,7 +16,7 @@ import { MapsComponent } from './maps/maps.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
-import { Handicaps } from 'models/handicaps/handicaps_4_15_2019';
+import { Handicaps } from 'models/handicaps/handicaps_6_15_2019';
 
 @NgModule({
   imports: [

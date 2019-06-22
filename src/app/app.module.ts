@@ -18,6 +18,9 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
 import { Handicaps } from 'models/handicaps/handicaps_6_15_2019';
 
+// Import 2019 Photo Modules
+import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -33,9 +36,8 @@ import { Handicaps } from 'models/handicaps/handicaps_6_15_2019';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-
   ],
-  providers: [SparkyAndersonData, Handicaps],
+  providers: [ SparkyAndersonData, Handicaps, Member_Guest_Photos ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

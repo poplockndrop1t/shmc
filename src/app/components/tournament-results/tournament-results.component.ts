@@ -13,10 +13,22 @@ export class TournamentResultsComponent implements OnInit {
     private memberGuestData: MemberGuestData
   ) {}
   ngOnInit() {
-    // console.log(memberGuestData)
     this.sparkyAnderson2019 = this.sparkyData.sparkyAnderson2019;
     this.memberGuest2019 = this.memberGuestData.memberGuest2019;
   }
   sparkyAnderson2019 = [];
   memberGuest2019 = [];
+  toggleShown = {
+    'Member Guest 2019': true,
+    'Sparky Anderson 2019': false
+  }
+
+
+  handleClick(e) {
+    if (this.toggleShown[e.target.innerText]) {
+      this.toggleShown[e.target.innerText] = false
+    } else {
+      this.toggleShown[e.target.innerText] = true;
+    }
+  }
 }

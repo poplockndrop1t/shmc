@@ -1,32 +1,32 @@
 <div class="main-content">
   <div class="card">
-   <div class="card-header card-header-danger">
+   <div class="card-header card-header-danger" (click)="handleClick($event)">
       <h4 class="card-title ">Sunset Hills Meeting Minutes</h4>
       <p class="card-category">May 14th, 2019</p>
     </div>
-    <div class="card-body">
+    <div class="card-body" *ngIf="toggleShown['May 14th, 2019']">
       <object type="application/pdf" data="/assets/meeting_minutes/5_14_19_shmc_minutes.pdf">
         <p>Insert your error message here, if the PDF cannot be displayed.</p>
       </object>
     </div>
   </div>
   <div class="card">
-   <div class="card-header card-header-danger">
+   <div class="card-header card-header-danger" (click)="handleClick($event)">
       <h4 class="card-title ">Sunset Hills Meeting Minutes</h4>
-      <p class="card-category">May 14th, 2019</p>
+      <p class="card-category">March 12, 2019</p>
     </div>
-    <div class="card-body">
+    <div class="card-body" *ngIf="toggleShown['March 12, 2019']">
       <object type="application/pdf" data="/assets/meeting_minutes/3_12_19_shmc_minutes.pdf">
         <p>Insert your error message here, if the PDF cannot be displayed.</p>
       </object>
     </div>
   </div>
   <div class="card">
-   <div class="card-header card-header-danger">
+   <div class="card-header card-header-danger" (click)="handleClick($event)">
       <h4 class="card-title ">Sunset Hills Meeting Minutes</h4>
-      <p class="card-category">May 14th, 2019</p>
+      <p class="card-category">January 8th, 2019</p>
     </div>
-    <div class="card-body">
+    <div class="card-body" *ngIf="toggleShown['January 8th, 2019']">
       <object type="application/pdf" data="/assets/meeting_minutes/1_8_19_shmc_minutes.pdf">
         <p>Insert your error message here, if the PDF cannot be displayed.</p>
       </object>

@@ -12,4 +12,10 @@ export class HandicapsComponent implements OnInit {
     this.members = this.handicaps.handicaps;
   }
   members = [];
+  members_bak = this.members;
+
+  onSearch(event) {
+    console.log('hello world', event);
+  }
+
 }

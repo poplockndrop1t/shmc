@@ -1,5 +1,11 @@
 <div class="main-content">
   <div class="container-fluid">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Search by name:</span>
+      </div>
+      <input (input)="onSearch($event)" type="text" aria-label="First name" class="form-control">
+    </div>
     <div class="row">
       <div class="col-md-12">
         <div class="card">
@@ -7,6 +13,8 @@
             <h4 class="card-title ">Sunset Hills Mens Club</h4>
             <p class="card-category">July 15th, 2019</p>
           </div>
+
+
           <div class="card-body">
             <div class="table-responsive">
               <table class="table">

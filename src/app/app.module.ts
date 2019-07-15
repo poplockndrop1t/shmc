@@ -20,7 +20,7 @@ import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResul
 import { MemberGuestData } from 'models/tournamentResults/memberGuestResults';
 
 // Handicaps
-import { Handicaps } from 'models/handicaps/handicaps_7_1_2019';
+import { Handicaps } from 'models/handicaps/handicaps_7_15_2019';
 
 // Import 2019 Photo Modules
 import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';

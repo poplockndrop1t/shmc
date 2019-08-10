@@ -23,9 +23,6 @@ import { RequestService } from './services/request.service';
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
 import { MemberGuestData } from 'models/tournamentResults/memberGuestResults';
 
-// Handicaps
-import { Handicaps } from 'models/handicaps/handicaps_8_1_2019';
-
 // Import 2019 Photo Modules
 import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
 
@@ -49,7 +46,6 @@ import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
   providers: [
     SparkyAndersonData,
     MemberGuestData,
-    Handicaps,
     Member_Guest_Photos,
     RequestService
   ],

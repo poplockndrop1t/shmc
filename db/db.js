@@ -17,16 +17,6 @@ let setAda = docRef.set({
   White: 2
 });
 
-// db.collection('handicaps').get()
-// 	.then((snapshot) => {
-// 	  snapshot.forEach((doc) => {
-// 	    console.log(doc.id, '=>', doc.data());
-// 	  });
-// 	})
-// 	.catch((err) => {
-// 	  console.log('Error getting documents', err);
-// 	});
-
 module.exports = {
 	db: db
 };

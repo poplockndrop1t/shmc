@@ -2,16 +2,36 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fbAdmin = require('firebase-admin');
 
-let serviceAccount = require('some path to be added');
+let serviceAccount = require('./secrets/shmc.json');
 
 const app = express();
 const port = process.env.PORT || 1337;
 
 fbAdmin.initializeApp({
-	credential: admin.credential.cert(serviceAccount);
+	credential: fbAdmin.credential.cert(serviceAccount),
+	databaseURL: "https://shmc-9f46a.firebaseio.com"
 });
 
-let db = admin.firestore();
+let db = fbAdmin.firestore();
+
+let docRef = db.collection('handicaps').doc('1');
+
+let setAda = docRef.set({
+  Handicap: 1,
+  Black: 2,
+  White: 2
+});
+
+db.collection('handicaps').get()
+	.then((snapshot) => {
+	  snapshot.forEach((doc) => {
+	    console.log(doc.id, '=>', doc.data());
+	  });
+	})
+	.catch((err) => {
+	  console.log('Error getting documents', err);
+	});
+
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/dist'));

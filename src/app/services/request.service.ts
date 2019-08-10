@@ -6,6 +6,6 @@ export class RequestService {
   constructor(private http: HttpClient) {}
 
   getHandicaps() {
-    return this.http.get('/handicaps/all');
+    return this.http.get('/handicaps/all', { responseType: 'json' });
   }
 }

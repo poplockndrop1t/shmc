@@ -1,3 +1,8 @@
 module.exports =  {
-	1: { id: '1', Name: 'test', Handicap: 1, Black: 2, White: 3 }
+	'handicaps': { 
+		name: 'handicapList', 
+		handicaps: [
+			{ name: 'test', handicap: 2 }
+		] 
+	}
 };

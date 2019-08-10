@@ -9,7 +9,9 @@ fbAdmin.initializeApp({
 
 let db = fbAdmin.firestore();
 
-let docRef = db.collection('handicaps').doc(handicapData['1']['id']).set(handicapData['1']);
+let docRef = db.collection('handicaps')
+	.doc(handicapData['handicaps']['name'])
+	.set(handicapData['handicaps'])
 
 module.exports = {
 	db: db

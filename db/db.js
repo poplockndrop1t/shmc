@@ -1,5 +1,5 @@
 const fbAdmin = require('firebase-admin');
-
+const handicapData = require('./handicaps');
 let serviceAccount = require('../secrets/shmc.json');
 
 fbAdmin.initializeApp({
@@ -9,13 +9,7 @@ fbAdmin.initializeApp({
 
 let db = fbAdmin.firestore();
 
-let docRef = db.collection('handicaps').doc('1');
-
-let setAda = docRef.set({
-  Handicap: 1,
-  Black: 2,
-  White: 2
-});
+let docRef = db.collection('handicaps').doc(handicapData['1']['id']).set(handicapData['1']);
 
 module.exports = {
 	db: db

@@ -3,9 +3,6 @@
 # secrets
 /secrets
 
-# database files
-/db
-
 # compiled output
 /dist
 /tmp

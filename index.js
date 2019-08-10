@@ -12,7 +12,7 @@ app.get('/handicaps/all', (req, res) => {
 	db.db.collection('handicaps').get()
 		.then((snapshot) => {
 			snapshot.forEach((doc) => {
-				res.send(doc.data());
+				res.json(doc.data());
 			});
 		})
 		.catch(err => console.log('Error', err));

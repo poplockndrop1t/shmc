@@ -6,6 +6,39 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header card-header-danger">
+            <h4 class="card-title ">Club Championship 2019</h4>
+            <p class="card-category">Scores</p>
+          </div> 
+          <div class="card-body" *ngIf="toggleShown['Club Championship 2019']" >
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>Flight</th>
+                  <th>Player(s)</th>
+                  <th>Points</th>
+                  <th>Place</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let member of clubChampionship2019">
+                    <td>{{ member.flight }}</td>
+                    <td class="text-primary">{{ member.player }}</td>
+                    <td>{{ member.points }}</td>
+                    <td>{{ member.place }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Member Guest Resuts -->
+
+    <!-- Member Guest Results -->
+    <div class="row" (click)=handleClick($event)>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header card-header-danger">
             <h4 class="card-title ">Member Guest 2019</h4>
             <p class="card-category">Scores</p>
           </div> 

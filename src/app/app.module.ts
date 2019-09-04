@@ -23,6 +23,7 @@ import { RequestService } from './services/request.service';
 import { SparkyAndersonData } from 'models/tournamentResults/sparkyAndersonResults';
 import { MemberGuestData } from 'models/tournamentResults/memberGuestResults';
 import { ClubChampionshipData } from 'models/tournamentResults/clubChampionshipResults';
+import { MemberMemberData } from 'models/tournamentResults/memberMemberResults';
 
 // Import 2019 Photo Modules
 import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
@@ -48,6 +49,7 @@ import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
     SparkyAndersonData,
     MemberGuestData,
     ClubChampionshipData,
+    MemberMemberData,
     Member_Guest_Photos,
     RequestService
   ],

@@ -1,7 +1,7 @@
-export class MemberGuestData {
-  memberGuest2019 = [
+export class MemberMemberData {
+  memberMember2019 = [
     {
-      flight: "Member Member Club Champions",
+      flight: "Club Champions",
       player: "Mike Brennen, and Kevin O'Toole",
       points: 199,
       place: "Champions"
@@ -33,7 +33,7 @@ export class MemberGuestData {
     {
       flight: "B",
       player: "Steve Alexander, and Jim Pett",
-      points: 201
+      points: 201,
       place: "Flight B Gross Champions"
     },
     {

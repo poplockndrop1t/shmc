@@ -26,7 +26,7 @@ export class PhotosComponent implements OnInit {
 
   handleClick(e) {
     if (this.toggleShown[e.target.innerText]) {
-      this.toggleShown[e.target.innerText] = false
+      this.toggleShown[e.target.innerText] = false;
     } else {
       this.toggleShown[e.target.innerText] = true;
     }

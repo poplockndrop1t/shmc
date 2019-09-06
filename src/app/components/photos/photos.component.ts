@@ -17,5 +17,19 @@ export class PhotosComponent implements OnInit {
     this.member_member = this.member_member_photos.photos;
   }
   member_guest = [];
+  member_member = [];
+
+  toggleShown = {
+    'Member Member 2019': true,
+    'Member Guest 2019': false
+  }
+
+  handleClick(e) {
+    if (this.toggleShown[e.target.innerText]) {
+      this.toggleShown[e.target.innerText] = false
+    } else {
+      this.toggleShown[e.target.innerText] = true;
+    }
+  }
 
 }

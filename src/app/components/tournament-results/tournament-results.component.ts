@@ -35,7 +35,6 @@ export class TournamentResultsComponent implements OnInit {
     'Sparky Anderson 2019': false
   }
 
-
   handleClick(e) {
     if (this.toggleShown[e.target.innerText]) {
       this.toggleShown[e.target.innerText] = false

@@ -27,6 +27,7 @@ import { MemberMemberData } from 'models/tournamentResults/memberMemberResults';
 
 // Import 2019 Photo Modules
 import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
+import { Member_Member_Photos } from 'models/photos/photos_member_member_2019';
 
 @NgModule({
   imports: [
@@ -46,11 +47,12 @@ import { Member_Guest_Photos } from 'models/photos/photos_member_guest_2019';
     AdminLayoutComponent,
   ],
   providers: [
-    SparkyAndersonData,
-    MemberGuestData,
     ClubChampionshipData,
+    MemberGuestData,
     MemberMemberData,
+    SparkyAndersonData,
     Member_Guest_Photos,
+    Member_Member_Photos,
     RequestService
   ],
   bootstrap: [AppComponent]

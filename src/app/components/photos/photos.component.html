@@ -6,6 +6,21 @@
         <p class="card-category">Tournament Schedule</p>
       </div>
     </div>
+
+    <!-- Member Member -->
+    <div class="card">
+      <div class="card-header card-header-danger">
+        <p class="card-category">Member Guest</p>
+      </div>
+    </div>
+    <div class="card-columns">
+      <div class="card" *ngFor="let photo of member_member">
+        <img class="card-img-top" [src]="photo.src" />
+      </div>
+    </div>
+    <!-- Member Member End -->
+
+    <!-- Member Guest -->
     <div class="card">
       <div class="card-header card-header-danger">
         <p class="card-category">Member Guest</p>
@@ -16,6 +31,7 @@
         <img class="card-img-top"  [src]="photo.src" />
       </div>
     </div>
+    <!-- Member Guest End -->
+
   </div>
 </div>
-

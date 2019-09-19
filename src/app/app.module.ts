@@ -40,8 +40,7 @@ import { Member_Member_Photos } from 'models/photos/photos_member_member_2019';
     HttpModule,
     HttpClientModule,
     ComponentsModule,
-    // NgbModal,
-    NgbModule,
+    NgbModule.forRoot(),
     RouterModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -7,8 +7,20 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  constructor() {}
-  ngOnInit() {}
+  @ViewChild('content') modal;
+
+  constructor(private modalService: NgbModal) {}
+  ngOnInit() {
+    this.open(this.modal);
+  }
+
+  closeState = '';
+
+  open(content) {
+    this.modalService.open(content).result.then((result) => {
+      this.closeState = `Closed with: ${result}`;
+    });
+  }
 
   firstRow = [
     {

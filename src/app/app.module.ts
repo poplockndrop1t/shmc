@@ -16,6 +16,10 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MapsComponent } from './maps/maps.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+// import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 // Services
 import { RequestService } from './services/request.service';
 
@@ -36,6 +40,8 @@ import { Member_Member_Photos } from 'models/photos/photos_member_member_2019';
     HttpModule,
     HttpClientModule,
     ComponentsModule,
+    // NgbModal,
+    NgbModule,
     RouterModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({

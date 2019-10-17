@@ -10,16 +10,13 @@ export class DashboardComponent implements OnInit {
   @ViewChild('content') modal;
 
   constructor(private modalService: NgbModal) {}
+
   ngOnInit() {
     this.open(this.modal);
   }
 
-  closeState = '';
-
   open(content) {
-    this.modalService.open(content).result.then((result) => {
-      this.closeState = `Closed with: ${result}`;
-    });
+    this.modalService.open(content);
   }
 
   firstRow = [
@@ -75,6 +72,4 @@ export class DashboardComponent implements OnInit {
       info: 'USGA: New Rules'
     }
   ];
-
-  showModal = true;
 }

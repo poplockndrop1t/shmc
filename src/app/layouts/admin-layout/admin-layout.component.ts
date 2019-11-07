@@ -30,7 +30,6 @@ export class AdminLayoutComponent implements OnInit {
 
       if (isWindows && !document.getElementsByTagName('body')[0].classList.contains('sidebar-mini')) {
           // if we are on windows OS we activate the perfectScrollbar function
-
           document.getElementsByTagName('body')[0].classList.add('perfect-scrollbar-on');
       } else {
           document.getElementsByTagName('body')[0].classList.remove('perfect-scrollbar-off');
@@ -94,5 +93,4 @@ export class AdminLayoutComponent implements OnInit {
       }
       return bool;
   }
-
 }

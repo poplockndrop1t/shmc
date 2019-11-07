@@ -1,3 +1,20 @@
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">The 2019 Sunset Hills Mens Club: Club Champion</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true" (click)="d('Cross click')">&times;</span>
+    </button>
+  </div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <img class="img-fluid" src="/assets/img/shmc_pics/club_champion_leibin.JPG">
+    </div>
+  </div>
+  <div class="modal-body">
+    <p class="text-center">Mike Leibin</p>
+  </div>
+</ng-template>
+
 <div class="wrapper">
   <div class="sidebar" data-color="danger" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
     <app-sidebar></app-sidebar>

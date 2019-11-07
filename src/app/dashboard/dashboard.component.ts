@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,17 +6,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  @ViewChild('content') modal;
+  constructor() {}
 
-  constructor(private modalService: NgbModal) {}
-
-  ngOnInit() {
-    this.open(this.modal);
-  }
-
-  open(content) {
-    this.modalService.open(content);
-  }
+  ngOnInit() {}
 
   firstRow = [
     {

@@ -9,7 +9,8 @@ export class MinutesComponent implements OnInit {
   constructor() {}
   ngOnInit() {}
   toggleShown = {
-    'May 14th, 2019': true,
+    'October 8th, 2019': true,
+    'May 14th, 2019': false,
     'March 12, 2019': false,
     'January 8th, 2019': false
   }

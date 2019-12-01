@@ -16,13 +16,13 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Agans, Patrick",
-		    "Handicap": 17.1,
-		    "Black": 19,
+		    "Handicap": 16.8,
+		    "Black": 18,
 		    "White": 18
 		  },
 		  {
 		    "Name": "Alexander, Steve",
-		    "Handicap": 10.4,
+		    "Handicap": 10.1,
 		    "Black": 11,
 		    "White": 11
 		  },
@@ -52,25 +52,25 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Anzures, Robert E",
-		    "Handicap": 14.2,
-		    "Black": 15,
-		    "White": 15
+		    "Handicap": 15,
+		    "Black": 16,
+		    "White": 16
 		  },
 		  {
 		    "Name": "Aoyama, Yoshihiko",
-		    "Handicap": 10.8,
+		    "Handicap": 10.9,
 		    "Black": 12,
-		    "White": 11
+		    "White": 12
 		  },
 		  {
 		    "Name": "Archer, Mike",
-		    "Handicap": 15.1,
+		    "Handicap": 14.9,
 		    "Black": 16,
 		    "White": 16
 		  },
 		  {
 		    "Name": "Armedilla, Mr. Arnold Rivel",
-		    "Handicap": 13.8,
+		    "Handicap": 13.9,
 		    "Black": 15,
 		    "White": 15
 		  },
@@ -88,14 +88,14 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Avery, Brock",
-		    "Handicap": 16.8,
-		    "Black": 18,
+		    "Handicap": 17.3,
+		    "Black": 19,
 		    "White": 18
 		  },
 		  {
 		    "Name": "Barker, Jon",
-		    "Handicap": 27,
-		    "Black": 29,
+		    "Handicap": 27.5,
+		    "Black": 30,
 		    "White": 29
 		  },
 		  {
@@ -106,7 +106,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Barth, Mr. Petter",
-		    "Handicap": 5.3,
+		    "Handicap": 5.4,
 		    "Black": 6,
 		    "White": 6
 		  },
@@ -130,21 +130,21 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Beal, Bryan R",
-		    "Handicap": 6.9,
-		    "Black": 8,
+		    "Handicap": 6.5,
+		    "Black": 7,
 		    "White": 7
 		  },
 		  {
 		    "Name": "Belavic, Patrick M",
-		    "Handicap": 5.2,
+		    "Handicap": 5.4,
 		    "Black": 6,
 		    "White": 6
 		  },
 		  {
 		    "Name": "Berger, Scott V",
-		    "Handicap": 12.3,
+		    "Handicap": 11.7,
 		    "Black": 13,
-		    "White": 13
+		    "White": 12
 		  },
 		  {
 		    "Name": "Billin, Mr. John Derrick",
@@ -154,9 +154,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Bitner, Donald P",
-		    "Handicap": 11.2,
-		    "Black": 12,
-		    "White": 12
+		    "Handicap": 10.3,
+		    "Black": 11,
+		    "White": 11
 		  },
 		  {
 		    "Name": "Blake, Mr. David",
@@ -178,9 +178,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Bowman, David R",
-		    "Handicap": 9.6,
-		    "Black": 10,
-		    "White": 10
+		    "Handicap": 10.2,
+		    "Black": 11,
+		    "White": 11
 		  },
 		  {
 		    "Name": "Boyert, Brad",
@@ -190,27 +190,33 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Bradley, Bryan",
-		    "Handicap": 13.4,
-		    "Black": 15,
-		    "White": 14
+		    "Handicap": 12.7,
+		    "Black": 14,
+		    "White": 13
 		  },
 		  {
 		    "Name": "Brennan, Michael D",
-		    "Handicap": 10.8,
-		    "Black": 12,
-		    "White": 11
+		    "Handicap": 11.8,
+		    "Black": 13,
+		    "White": 13
+		  },
+		  {
+		    "Name": "Bridges, Matt",
+		    "Handicap": "NH",
+		    "Black": "NH",
+		    "White": "NH"
 		  },
 		  {
 		    "Name": "Brown, Rick",
-		    "Handicap": 4,
-		    "Black": 4,
+		    "Handicap": 4.2,
+		    "Black": 5,
 		    "White": 4
 		  },
 		  {
 		    "Name": "Buckingham, Mark",
-		    "Handicap": 20.9,
-		    "Black": 23,
-		    "White": 22
+		    "Handicap": 21.6,
+		    "Black": 24,
+		    "White": 23
 		  },
 		  {
 		    "Name": "Bugbee, Stephen D",
@@ -220,14 +226,14 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Burns, Don A",
-		    "Handicap": 14,
+		    "Handicap": 13.9,
 		    "Black": 15,
 		    "White": 15
 		  },
 		  {
 		    "Name": "Buss, Dave H",
-		    "Handicap": 16.1,
-		    "Black": 18,
+		    "Handicap": 16,
+		    "Black": 17,
 		    "White": 17
 		  },
 		  {
@@ -238,9 +244,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Camara, Rick",
-		    "Handicap": 24.1,
-		    "Black": 26,
-		    "White": 26
+		    "Handicap": 22.6,
+		    "Black": 25,
+		    "White": 24
 		  },
 		  {
 		    "Name": "Camera, John W",
@@ -274,20 +280,20 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Cassanego, Michael",
-		    "Handicap": 17.6,
+		    "Handicap": 17.7,
 		    "Black": 19,
 		    "White": 19
 		  },
 		  {
 		    "Name": "Chavez, Pat",
-		    "Handicap": 17,
+		    "Handicap": 17.6,
 		    "Black": 19,
-		    "White": 18
+		    "White": 19
 		  },
 		  {
 		    "Name": "Chergey, Daniel M",
-		    "Handicap": 12.7,
-		    "Black": 14,
+		    "Handicap": 12.4,
+		    "Black": 13,
 		    "White": 13
 		  },
 		  {
@@ -298,13 +304,13 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Christensen, Steve",
-		    "Handicap": 11.6,
-		    "Black": 13,
+		    "Handicap": 11.4,
+		    "Black": 12,
 		    "White": 12
 		  },
 		  {
 		    "Name": "Ciuffitelli, Larry C",
-		    "Handicap": 19.2,
+		    "Handicap": 19.3,
 		    "Black": 21,
 		    "White": 20
 		  },
@@ -328,9 +334,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Cohen, Brian M",
-		    "Handicap": 16.3,
+		    "Handicap": 16.7,
 		    "Black": 18,
-		    "White": 17
+		    "White": 18
 		  },
 		  {
 		    "Name": "Colbert, Gary",
@@ -343,6 +349,12 @@ module.exports =  {
 		    "Handicap": 16.3,
 		    "Black": 18,
 		    "White": 17
+		  },
+		  {
+		    "Name": "Coleman, Bryan",
+		    "Handicap": "NH",
+		    "Black": "NH",
+		    "White": "NH"
 		  },
 		  {
 		    "Name": "Corbett, Rick S",
@@ -358,7 +370,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Cressman, John",
-		    "Handicap": 9.9,
+		    "Handicap": 10.1,
 		    "Black": 11,
 		    "White": 11
 		  },
@@ -370,8 +382,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Cromwell, Rick",
-		    "Handicap": 4.2,
-		    "Black": 5,
+		    "Handicap": 4,
+		    "Black": 4,
 		    "White": 4
 		  },
 		  {
@@ -388,15 +400,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Cunningham, Charles",
-		    "Handicap": 22.4,
+		    "Handicap": 22.2,
 		    "Black": 24,
 		    "White": 24
 		  },
 		  {
 		    "Name": "Dawson, Dave W",
-		    "Handicap": 6.9,
+		    "Handicap": 7.5,
 		    "Black": 8,
-		    "White": 7
+		    "White": 8
 		  },
 		  {
 		    "Name": "De Mattos, Alec",
@@ -412,9 +424,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Denning, Randy",
-		    "Handicap": 28.6,
-		    "Black": 31,
-		    "White": 30
+		    "Handicap": 29.7,
+		    "Black": 32,
+		    "White": 32
 		  },
 		  {
 		    "Name": "Desmet, Grant",
@@ -448,9 +460,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "East, Mr Ethan D",
-		    "Handicap": 8.6,
-		    "Black": 9,
-		    "White": 9
+		    "Handicap": 9.9,
+		    "Black": 11,
+		    "White": 11
 		  },
 		  {
 		    "Name": "Elkins, Rand J",
@@ -484,7 +496,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Eyermann, Peter S",
-		    "Handicap": 10.1,
+		    "Handicap": 10.3,
 		    "Black": 11,
 		    "White": 11
 		  },
@@ -496,7 +508,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Fernandez, Ronald F",
-		    "Handicap": 10,
+		    "Handicap": 10.5,
 		    "Black": 11,
 		    "White": 11
 		  },
@@ -508,7 +520,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Ferris, Larry P",
-		    "Handicap": 20.3,
+		    "Handicap": 20.5,
 		    "Black": 22,
 		    "White": 22
 		  },
@@ -544,7 +556,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Garrity, Thomas M",
-		    "Handicap": 16.3,
+		    "Handicap": 16.4,
 		    "Black": 18,
 		    "White": 17
 		  },
@@ -562,8 +574,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Goldfield, Daniel",
-		    "Handicap": 10.6,
-		    "Black": 12,
+		    "Handicap": 10.5,
+		    "Black": 11,
 		    "White": 11
 		  },
 		  {
@@ -610,8 +622,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Hatfield, Gregory L",
-		    "Handicap": 5.3,
-		    "Black": 6,
+		    "Handicap": 6,
+		    "Black": 7,
 		    "White": 6
 		  },
 		  {
@@ -622,8 +634,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Haws, John",
-		    "Handicap": 9.3,
-		    "Black": 10,
+		    "Handicap": 9.7,
+		    "Black": 11,
 		    "White": 10
 		  },
 		  {
@@ -634,13 +646,13 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Helm, Chuck",
-		    "Handicap": 17.5,
+		    "Handicap": 17.2,
 		    "Black": 19,
-		    "White": 19
+		    "White": 18
 		  },
 		  {
 		    "Name": "Hemphill, Richard L",
-		    "Handicap": 21.4,
+		    "Handicap": 21.5,
 		    "Black": 23,
 		    "White": 23
 		  },
@@ -652,7 +664,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Herbert, Edward",
-		    "Handicap": 23.9,
+		    "Handicap": 23.8,
 		    "Black": 26,
 		    "White": 25
 		  },
@@ -676,7 +688,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Hill, Benjamin",
-		    "Handicap": 18.9,
+		    "Handicap": 19.3,
 		    "Black": 21,
 		    "White": 20
 		  },
@@ -688,8 +700,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Hindley, Mr. Hal",
-		    "Handicap": 17.8,
-		    "Black": 19,
+		    "Handicap": 18,
+		    "Black": 20,
 		    "White": 19
 		  },
 		  {
@@ -700,7 +712,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Hodge, Cliff",
-		    "Handicap": 13.2,
+		    "Handicap": 12.9,
 		    "Black": 14,
 		    "White": 14
 		  },
@@ -712,7 +724,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Holmes, Danny P",
-		    "Handicap": 17.1,
+		    "Handicap": 17.2,
 		    "Black": 19,
 		    "White": 18
 		  },
@@ -724,9 +736,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Huckle, James",
-		    "Handicap": 20.9,
-		    "Black": 23,
-		    "White": 22
+		    "Handicap": 21.7,
+		    "Black": 24,
+		    "White": 23
 		  },
 		  {
 		    "Name": "Humphrey, William J",
@@ -766,9 +778,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Jacobus, Mr Robert",
-		    "Handicap": 3.8,
-		    "Black": 4,
-		    "White": 4
+		    "Handicap": "11.0M",
+		    "Black": 12,
+		    "White": 12
 		  },
 		  {
 		    "Name": "Jaeger, Mr. Kurt",
@@ -778,7 +790,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Jankowski, Mr. Michael",
-		    "Handicap": 11.9,
+		    "Handicap": 12.1,
 		    "Black": 13,
 		    "White": 13
 		  },
@@ -814,15 +826,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Kay, Mr. Evan D",
-		    "Handicap": 14.1,
+		    "Handicap": 13.5,
 		    "Black": 15,
-		    "White": 15
+		    "White": 14
 		  },
 		  {
 		    "Name": "Kegley, Steven F",
-		    "Handicap": 12.2,
-		    "Black": 13,
-		    "White": 13
+		    "Handicap": 13.6,
+		    "Black": 15,
+		    "White": 14
 		  },
 		  {
 		    "Name": "Kelly Jr, Charles D",
@@ -832,8 +844,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "King, Jeff",
-		    "Handicap": 10.2,
-		    "Black": 11,
+		    "Handicap": 10.7,
+		    "Black": 12,
 		    "White": 11
 		  },
 		  {
@@ -874,9 +886,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Knudson, Mitch",
-		    "Handicap": 14.5,
-		    "Black": 16,
-		    "White": 15
+		    "Handicap": 16.2,
+		    "Black": 18,
+		    "White": 17
 		  },
 		  {
 		    "Name": "Koeritz, Robert C",
@@ -898,15 +910,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Ladd, Leon D",
-		    "Handicap": 30.3,
-		    "Black": 33,
-		    "White": 32
+		    "Handicap": 30.8,
+		    "Black": 34,
+		    "White": 33
 		  },
 		  {
 		    "Name": "Lam, Willie",
-		    "Handicap": 14.1,
-		    "Black": 15,
-		    "White": 15
+		    "Handicap": 15.5,
+		    "Black": 17,
+		    "White": 16
 		  },
 		  {
 		    "Name": "Lambert, Brennan S",
@@ -952,9 +964,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Larsen, John A",
-		    "Handicap": 21.8,
-		    "Black": 24,
-		    "White": 23
+		    "Handicap": 21.1,
+		    "Black": 23,
+		    "White": 22
 		  },
 		  {
 		    "Name": "Lashley, Kevin",
@@ -970,8 +982,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Leff, Ryan",
-		    "Handicap": 7.7,
-		    "Black": 8,
+		    "Handicap": 7.9,
+		    "Black": 9,
 		    "White": 8
 		  },
 		  {
@@ -982,9 +994,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Leibin, Mike",
-		    "Handicap": 1.9,
-		    "Black": 2,
-		    "White": 2
+		    "Handicap": 1.3,
+		    "Black": 1,
+		    "White": 1
 		  },
 		  {
 		    "Name": "Lemasurier, Phil",
@@ -994,25 +1006,31 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Leonard, Joseph",
-		    "Handicap": 0.9,
-		    "Black": 1,
-		    "White": 1
+		    "Handicap": 0.4,
+		    "Black": 0,
+		    "White": 0
 		  },
 		  {
 		    "Name": "Lewis, Daniel",
-		    "Handicap": 15.8,
+		    "Handicap": 16,
 		    "Black": 17,
 		    "White": 17
 		  },
 		  {
+		    "Name": "Lewis, Wade",
+		    "Handicap": 9,
+		    "Black": 10,
+		    "White": 10
+		  },
+		  {
 		    "Name": "Lindgren, Edward",
-		    "Handicap": 7.3,
+		    "Handicap": 7.2,
 		    "Black": 8,
 		    "White": 8
 		  },
 		  {
 		    "Name": "Linklater, Scott",
-		    "Handicap": 2.9,
+		    "Handicap": 2.5,
 		    "Black": 3,
 		    "White": 3
 		  },
@@ -1036,9 +1054,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Loftus, Richard",
-		    "Handicap": 22.3,
-		    "Black": 24,
-		    "White": 24
+		    "Handicap": 23.1,
+		    "Black": 25,
+		    "White": 25
 		  },
 		  {
 		    "Name": "Lopez, Dr. Alex D",
@@ -1060,15 +1078,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Lynch Jr, Michael P",
-		    "Handicap": 4.4,
+		    "Handicap": 4.3,
 		    "Black": 5,
 		    "White": 5
 		  },
 		  {
 		    "Name": "Lytle, Nathan",
-		    "Handicap": 14.9,
-		    "Black": 16,
-		    "White": 16
+		    "Handicap": 16.7,
+		    "Black": 18,
+		    "White": 18
 		  },
 		  {
 		    "Name": "Major, James",
@@ -1090,7 +1108,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Marsango, Edward A",
-		    "Handicap": 21.7,
+		    "Handicap": 22.1,
 		    "Black": 24,
 		    "White": 23
 		  },
@@ -1102,9 +1120,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Martinez, Mr. Andres A.",
-		    "Handicap": 21.1,
-		    "Black": 23,
-		    "White": 22
+		    "Handicap": 22.2,
+		    "Black": 24,
+		    "White": 24
 		  },
 		  {
 		    "Name": "Martinez, Chad",
@@ -1126,25 +1144,25 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "McComb, Doug",
-		    "Handicap": 14.8,
+		    "Handicap": 14.7,
 		    "Black": 16,
 		    "White": 16
 		  },
 		  {
 		    "Name": "McDade, Blaze M",
-		    "Handicap": 21.1,
+		    "Handicap": 20.8,
 		    "Black": 23,
 		    "White": 22
 		  },
 		  {
 		    "Name": "McDade DDS, Patrick B",
-		    "Handicap": 15.2,
+		    "Handicap": 15.4,
 		    "Black": 17,
 		    "White": 16
 		  },
 		  {
 		    "Name": "McDonnell, Michael W",
-		    "Handicap": 15.2,
+		    "Handicap": 15.3,
 		    "Black": 17,
 		    "White": 16
 		  },
@@ -1162,13 +1180,13 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "McNulty, Benny",
-		    "Handicap": 22.5,
+		    "Handicap": 22.2,
 		    "Black": 24,
 		    "White": 24
 		  },
 		  {
 		    "Name": "Mettam, Rocky",
-		    "Handicap": 17.2,
+		    "Handicap": 17.3,
 		    "Black": 19,
 		    "White": 18
 		  },
@@ -1192,7 +1210,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Meyring, James",
-		    "Handicap": 17.5,
+		    "Handicap": 17.7,
 		    "Black": 19,
 		    "White": 19
 		  },
@@ -1210,19 +1228,19 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Miya, Kenneth",
-		    "Handicap": 12.3,
-		    "Black": 13,
+		    "Handicap": 12.6,
+		    "Black": 14,
 		    "White": 13
 		  },
 		  {
 		    "Name": "Montgomery, Bob",
-		    "Handicap": 14.4,
-		    "Black": 16,
+		    "Handicap": 13.9,
+		    "Black": 15,
 		    "White": 15
 		  },
 		  {
 		    "Name": "Morelli, Michael J",
-		    "Handicap": 12.3,
+		    "Handicap": 12.4,
 		    "Black": 13,
 		    "White": 13
 		  },
@@ -1252,7 +1270,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Munro, Brodie",
-		    "Handicap": 5.4,
+		    "Handicap": 5.8,
 		    "Black": 6,
 		    "White": 6
 		  },
@@ -1276,19 +1294,19 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Neale, Marc",
-		    "Handicap": 16.7,
+		    "Handicap": 16.8,
 		    "Black": 18,
 		    "White": 18
 		  },
 		  {
 		    "Name": "Neary, Robert L",
-		    "Handicap": 21.2,
-		    "Black": 23,
+		    "Handicap": 21.8,
+		    "Black": 24,
 		    "White": 23
 		  },
 		  {
 		    "Name": "Nelson, Mr Brad C",
-		    "Handicap": 17.1,
+		    "Handicap": 17.4,
 		    "Black": 19,
 		    "White": 18
 		  },
@@ -1306,7 +1324,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Nestroyl, Paul F",
-		    "Handicap": 14,
+		    "Handicap": 14.1,
 		    "Black": 15,
 		    "White": 15
 		  },
@@ -1324,9 +1342,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Norkin, Mr. Richard A",
-		    "Handicap": 13.4,
+		    "Handicap": 13.8,
 		    "Black": 15,
-		    "White": 14
+		    "White": 15
 		  },
 		  {
 		    "Name": "Nunes, Gary",
@@ -1336,14 +1354,14 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Odell, Mr. William A",
-		    "Handicap": 16.3,
-		    "Black": 18,
-		    "White": 17
+		    "Handicap": 15.2,
+		    "Black": 17,
+		    "White": 16
 		  },
 		  {
 		    "Name": "Ogg, Robert C",
-		    "Handicap": 28.8,
-		    "Black": 31,
+		    "Handicap": 29.4,
+		    "Black": 32,
 		    "White": 31
 		  },
 		  {
@@ -1360,7 +1378,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Otoole, Kevin M",
-		    "Handicap": 10.8,
+		    "Handicap": 10.6,
 		    "Black": 12,
 		    "White": 11
 		  },
@@ -1390,27 +1408,27 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Paris, Kenneth S",
-		    "Handicap": 9.4,
-		    "Black": 10,
-		    "White": 10
+		    "Handicap": 10,
+		    "Black": 11,
+		    "White": 11
 		  },
 		  {
 		    "Name": "Parker, John",
-		    "Handicap": 15,
-		    "Black": 16,
+		    "Handicap": 15.2,
+		    "Black": 17,
 		    "White": 16
 		  },
 		  {
 		    "Name": "Parker, Kirk",
-		    "Handicap": 21.3,
+		    "Handicap": 21.2,
 		    "Black": 23,
 		    "White": 23
 		  },
 		  {
 		    "Name": "Paschal, Ken W",
-		    "Handicap": 25,
+		    "Handicap": 24.6,
 		    "Black": 27,
-		    "White": 27
+		    "White": 26
 		  },
 		  {
 		    "Name": "Patton, Bob",
@@ -1438,15 +1456,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Pett, James",
-		    "Handicap": 7.7,
+		    "Handicap": 7.4,
 		    "Black": 8,
 		    "White": 8
 		  },
 		  {
 		    "Name": "Ploesch, Wayne",
-		    "Handicap": 4.9,
-		    "Black": 5,
-		    "White": 5
+		    "Handicap": 6,
+		    "Black": 7,
+		    "White": 6
 		  },
 		  {
 		    "Name": "Pollack, Christopher A",
@@ -1456,21 +1474,21 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Powell, Terry W",
-		    "Handicap": "2.9R",
-		    "Black": 3,
-		    "White": 3
+		    "Handicap": 3.8,
+		    "Black": 4,
+		    "White": 4
 		  },
 		  {
 		    "Name": "Powers, James W",
-		    "Handicap": 16.2,
+		    "Handicap": 16.5,
 		    "Black": 18,
-		    "White": 17
+		    "White": 18
 		  },
 		  {
 		    "Name": "Powers, Thomas E",
-		    "Handicap": 16.1,
+		    "Handicap": 16.7,
 		    "Black": 18,
-		    "White": 17
+		    "White": 18
 		  },
 		  {
 		    "Name": "Quinn, Evan",
@@ -1480,21 +1498,21 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Quinn, Michael",
-		    "Handicap": 10.8,
-		    "Black": 12,
+		    "Handicap": 10.5,
+		    "Black": 11,
 		    "White": 11
 		  },
 		  {
 		    "Name": "Quinn, Riley",
-		    "Handicap": 7.1,
+		    "Handicap": 6.9,
 		    "Black": 8,
-		    "White": 8
+		    "White": 7
 		  },
 		  {
 		    "Name": "Ramstead, Bob",
-		    "Handicap": 11.8,
-		    "Black": 13,
-		    "White": 13
+		    "Handicap": 12.8,
+		    "Black": 14,
+		    "White": 14
 		  },
 		  {
 		    "Name": "Read, Robert A.",
@@ -1504,13 +1522,13 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Redford, Kerry D",
-		    "Handicap": 5.8,
-		    "Black": 6,
-		    "White": 6
+		    "Handicap": 6.8,
+		    "Black": 7,
+		    "White": 7
 		  },
 		  {
 		    "Name": "Reiter, Todd",
-		    "Handicap": 15.3,
+		    "Handicap": 15.2,
 		    "Black": 17,
 		    "White": 16
 		  },
@@ -1522,27 +1540,27 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Reposar, Thomas M",
-		    "Handicap": 27.8,
-		    "Black": 30,
+		    "Handicap": 28.5,
+		    "Black": 31,
 		    "White": 30
 		  },
 		  {
 		    "Name": "Richard, Lynn",
-		    "Handicap": 25.7,
-		    "Black": 28,
-		    "White": 27
+		    "Handicap": 26.8,
+		    "Black": 29,
+		    "White": 28
 		  },
 		  {
 		    "Name": "Richman, Andrew",
-		    "Handicap": 7.1,
+		    "Handicap": 7.5,
 		    "Black": 8,
 		    "White": 8
 		  },
 		  {
 		    "Name": "Robertson, Fred",
-		    "Handicap": 20.2,
+		    "Handicap": 20.4,
 		    "Black": 22,
-		    "White": 21
+		    "White": 22
 		  },
 		  {
 		    "Name": "Robman, Louis B",
@@ -1552,7 +1570,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Roessell, Jack D",
-		    "Handicap": 1.6,
+		    "Handicap": 1.8,
 		    "Black": 2,
 		    "White": 2
 		  },
@@ -1576,9 +1594,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Ryusaki, Ryan",
-		    "Handicap": 5.6,
-		    "Black": 6,
-		    "White": 6
+		    "Handicap": 6.2,
+		    "Black": 7,
+		    "White": 7
 		  },
 		  {
 		    "Name": "Saberhagen, Bret",
@@ -1588,9 +1606,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Saberhagen, Drew",
-		    "Handicap": 4.1,
-		    "Black": 4,
-		    "White": 4
+		    "Handicap": 4.5,
+		    "Black": 5,
+		    "White": 5
 		  },
 		  {
 		    "Name": "Salinas, Ryan",
@@ -1600,9 +1618,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Sallin, Marc",
-		    "Handicap": 7.9,
-		    "Black": 9,
-		    "White": 8
+		    "Handicap": 8.9,
+		    "Black": 10,
+		    "White": 9
 		  },
 		  {
 		    "Name": "Samuels, Harold F",
@@ -1642,8 +1660,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Schwendimann, Mr. David F",
-		    "Handicap": 14.4,
-		    "Black": 16,
+		    "Handicap": 14.2,
+		    "Black": 15,
 		    "White": 15
 		  },
 		  {
@@ -1672,15 +1690,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Sherman, Frank A",
-		    "Handicap": 11.6,
-		    "Black": 13,
+		    "Handicap": 11,
+		    "Black": 12,
 		    "White": 12
 		  },
 		  {
 		    "Name": "Shmoldas, John D",
-		    "Handicap": 32.5,
+		    "Handicap": 32.4,
 		    "Black": 35,
-		    "White": 35
+		    "White": 34
 		  },
 		  {
 		    "Name": "Shramek, Mark",
@@ -1702,15 +1720,15 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Smith, Joseph",
-		    "Handicap": 8.4,
-		    "Black": 9,
-		    "White": 9
+		    "Handicap": 10,
+		    "Black": 11,
+		    "White": 11
 		  },
 		  {
 		    "Name": "Smith, Steven W",
-		    "Handicap": 24.8,
-		    "Black": 27,
-		    "White": 26
+		    "Handicap": 25.7,
+		    "Black": 28,
+		    "White": 27
 		  },
 		  {
 		    "Name": "Sower, Tim",
@@ -1732,8 +1750,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Stanley, Darren",
-		    "Handicap": 14.9,
-		    "Black": 16,
+		    "Handicap": 15.4,
+		    "Black": 17,
 		    "White": 16
 		  },
 		  {
@@ -1750,9 +1768,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Stillman, David M",
-		    "Handicap": 9.7,
+		    "Handicap": 10,
 		    "Black": 11,
-		    "White": 10
+		    "White": 11
 		  },
 		  {
 		    "Name": "Strom, Jeff",
@@ -1762,8 +1780,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Struck, Greg C",
-		    "Handicap": 16.8,
-		    "Black": 18,
+		    "Handicap": 17,
+		    "Black": 19,
 		    "White": 18
 		  },
 		  {
@@ -1774,7 +1792,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Sultanali, Jamal",
-		    "Handicap": 20.7,
+		    "Handicap": 20.9,
 		    "Black": 23,
 		    "White": 22
 		  },
@@ -1804,7 +1822,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Thomas, Robert T",
-		    "Handicap": 24.4,
+		    "Handicap": 24.8,
 		    "Black": 27,
 		    "White": 26
 		  },
@@ -1834,20 +1852,20 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Treuheit, Michael",
-		    "Handicap": 16.4,
+		    "Handicap": 16.6,
 		    "Black": 18,
-		    "White": 17
+		    "White": 18
 		  },
 		  {
 		    "Name": "Tribe, Trent",
-		    "Handicap": 6.3,
-		    "Black": 7,
-		    "White": 7
+		    "Handicap": 7.3,
+		    "Black": 8,
+		    "White": 8
 		  },
 		  {
 		    "Name": "Tuerpe, Joshua",
-		    "Handicap": 7.9,
-		    "Black": 9,
+		    "Handicap": 7.7,
+		    "Black": 8,
 		    "White": 8
 		  },
 		  {
@@ -1858,9 +1876,9 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Valdespino, Jack",
-		    "Handicap": 28.5,
-		    "Black": 31,
-		    "White": 30
+		    "Handicap": 29,
+		    "Black": 32,
+		    "White": 31
 		  },
 		  {
 		    "Name": "Vallejos, Greg",
@@ -1870,21 +1888,21 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Vigil, Rick",
-		    "Handicap": 26.9,
+		    "Handicap": 26.8,
 		    "Black": 29,
-		    "White": 29
+		    "White": 28
 		  },
 		  {
 		    "Name": "Violin, Mark F",
-		    "Handicap": 15.8,
-		    "Black": 17,
+		    "Handicap": 16.2,
+		    "Black": 18,
 		    "White": 17
 		  },
 		  {
 		    "Name": "Vitacco, William R",
-		    "Handicap": 15.2,
+		    "Handicap": 15.6,
 		    "Black": 17,
-		    "White": 16
+		    "White": 17
 		  },
 		  {
 		    "Name": "Walker, Dan",
@@ -1900,8 +1918,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Weinstock, Chris",
-		    "Handicap": 19.9,
-		    "Black": 22,
+		    "Handicap": 19.6,
+		    "Black": 21,
 		    "White": 21
 		  },
 		  {
@@ -1936,21 +1954,21 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Williams, George M",
-		    "Handicap": 12.7,
+		    "Handicap": 13.1,
 		    "Black": 14,
-		    "White": 13
+		    "White": 14
 		  },
 		  {
 		    "Name": "Williams, Paul R",
-		    "Handicap": 15.1,
-		    "Black": 16,
+		    "Handicap": 15.3,
+		    "Black": 17,
 		    "White": 16
 		  },
 		  {
 		    "Name": "Wilson, Keith",
-		    "Handicap": 6.4,
+		    "Handicap": 6.1,
 		    "Black": 7,
-		    "White": 7
+		    "White": 6
 		  },
 		  {
 		    "Name": "Wilson, Kemper",
@@ -1972,7 +1990,7 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Wollman, John",
-		    "Handicap": 12.7,
+		    "Handicap": 12.6,
 		    "Black": 14,
 		    "White": 13
 		  },
@@ -1996,8 +2014,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Yamagishi, Fredrick G",
-		    "Handicap": 14.6,
-		    "Black": 16,
+		    "Handicap": 15.2,
+		    "Black": 17,
 		    "White": 16
 		  },
 		  {
@@ -2008,8 +2026,8 @@ module.exports =  {
 		  },
 		  {
 		    "Name": "Zelden, Charles",
-		    "Handicap": 20.5,
-		    "Black": 22,
+		    "Handicap": 20.7,
+		    "Black": 23,
 		    "White": 22
 		  }
 		]

@@ -14,6 +14,7 @@ import { PhotosComponent } from '../../components/photos/photos.component';
 import { SuperReportComponent } from '../../components/super-report/super-report.component';
 import { NewRulesComponent } from '../../components/new-rules/new-rules.component';
 import { MinutesComponent } from '../../components/minutes/minutes.component';
+import { EmailComponent } from '../../components/email/email.component';
 
 import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
@@ -46,6 +47,7 @@ import {
     DashboardComponent,
     UserProfileComponent,
     MinutesComponent,
+    EmailComponent,
     MapsComponent
   ]
 })

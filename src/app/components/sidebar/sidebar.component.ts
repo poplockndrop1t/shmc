@@ -16,7 +16,8 @@ export const ROUTES: RouteInfo[] = [
   { path: '/handicaps',           title: 'Current Handicaps',     icon: 'golf_course',    class: '' },
   { path: '/minutes',             title: 'Meeting Minutes',       icon: 'attachment',     class: '' },
   { path: '/super-report',        title: 'Superintendent Report', icon: 'work',           class: '' },
-  { path: '/new-rules',           title: 'New Rules',             icon: 'new_releases',   class: '' }
+  { path: '/new-rules',           title: 'New Rules',             icon: 'new_releases',   class: '' },
+  { path: '/email',               title: 'Email',                 icon: 'email',          class: '' }
 ];
 
 @Component({

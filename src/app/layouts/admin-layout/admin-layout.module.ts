@@ -34,7 +34,8 @@ import {
     MatButtonModule,
     MatRippleModule,
     MatInputModule,
-    MatTooltipModule
+    MatTooltipModule,
+    ReactiveFormsModule
   ],
   declarations: [
     PhotosComponent,

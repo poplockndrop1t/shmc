@@ -18,4 +18,7 @@ export class EmailComponent implements OnInit {
 
   ngOnInit() {}
 
+  onSubmit() {
+    console.log('ran', this.profileForm.value);
+  }
 }

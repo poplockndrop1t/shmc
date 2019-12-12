@@ -23,6 +23,8 @@
       <label for="textarea">Your Message</label>
       <textarea class="form-control" id="message" rows="3" formControlName="message"></textarea>
     </div>
-    <button class="btn btn-primary" type="submit">Submit form</button>
+    <div>
+      <button class="btn btn-primary" type="submit" [disabled]="!profileForm.valid">Submit form</button>
+    </div>
   </form>
 </div>

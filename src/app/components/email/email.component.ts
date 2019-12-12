@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-email',
@@ -6,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./email.component.css']
 })
 export class EmailComponent implements OnInit {
+  profileForm = new FormGroup({
+    header: new FormControl(''),
+    name: new FormControl(''),
+    email: new FormControl(''),
+    message: new FormControl('')
+  });
+
   constructor() {}
 
   ngOnInit() {}

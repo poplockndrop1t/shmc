@@ -12,7 +12,7 @@ export class DashboardComponent implements OnInit {
 
   firstRow = [
     {
-      headerType: 'card-header-danger',
+      headerType: 'card-header-success',
       route: '/upcoming-tournament',
       materialIcon: 'touch_app',
       info: 'Upcoming Tournament'
@@ -24,13 +24,13 @@ export class DashboardComponent implements OnInit {
       info: 'Tournament Schedule'
     },
     {
-      headerType: 'card-header-info',
+      headerType: 'card-header-success',
       route: '/tournament-results',
       materialIcon: 'poll',
       info: 'Tournament Results'
     },
     {
-      headerType: 'card-header-warning',
+      headerType: 'card-header-success',
       route: '/photos',
       materialIcon: 'phone_iphone',
       info: 'Photos'
@@ -39,13 +39,13 @@ export class DashboardComponent implements OnInit {
 
   secondRow = [
     {
-      headerType: 'card-header-warning',
+      headerType: 'card-header-success',
       route: '/handicaps',
       materialIcon: 'golf_course',
       info: 'Current Handicaps'
     },
     {
-      headerType: 'card-header-danger',
+      headerType: 'card-header-success',
       route: '/minutes',
       materialIcon: 'attachment',
       info: 'Mens Club Meeting Minutes'
@@ -57,7 +57,7 @@ export class DashboardComponent implements OnInit {
       info: 'Superintendent Report'
     },
     {
-      headerType: 'card-header-info',
+      headerType: 'card-header-success',
       route: '/new-rules',
       materialIcon: 'new_releases',
       info: 'USGA: New Rules'

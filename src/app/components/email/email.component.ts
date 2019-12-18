@@ -18,17 +18,6 @@ export class EmailComponent implements OnInit {
 
   ngOnInit() {}
 
-  // onHover() {
-  //   let header = this.profileForm.value.header;
-  //   let name = this.profileForm.value.name;
-  //   let email = this.profileForm.value.email;
-  //   let message = this.profileForm.value.message;
-  //   console.log(header, name, email, message);
-  //   if (header.length > 0 && name.length > 0 && email.length > 0 && message.length > 0) {
-  //     this.profileForm.valid = !this.profileForm.valid;
-  //   }
-  // }
-
   onSubmit() {
     console.log('ran', this.profileForm.value);
     console.log('valid', this.profileForm.valid);
